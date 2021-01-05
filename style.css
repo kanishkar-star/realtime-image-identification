@@ -1,0 +1,27 @@
+.heading{
+    font-size : 23px;
+    width:100%;
+    margin:0px;
+    box-shadow : 5px 5px 5px rgb(70, 70, 70);
+}
+
+.heading_div{
+    float:none;
+    background:white;
+    padding:10px;
+    border-radius:20px;
+    color : black;
+    box-shadow : 5px 5px 5px rgb(70, 70, 70);
+}
+
+.heading_div_2{
+    font-size : 18px;
+    animation-name : change_color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    color:white;
+}
+
+@keyframes change_color{
+    to{border:5px solid rgb(0, 0, 0);}
+}
